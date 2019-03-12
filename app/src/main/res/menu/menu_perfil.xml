@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tuekeko.moraypfb.PerfilActivity">
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="100"
+        android:title="Acerca de"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Cerrar sesión"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:layout_gravity="center"
+
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/photoOption"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@color/casiblanco"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"
+            />
+
+        <CheckedTextView
+            android:id="@+id/checked_text_item"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:checkMark="?android:attr/listChoiceIndicatorSingle"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/primaryText"
+            android:checkMarkTint="@color/colorPrimary"
+            android:paddingBottom="16dp"
+
+            >
+
+        </CheckedTextView>
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/stateOption"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:layout_constraintLeft_toLeftOf="@id/photoOption"
+            app:layout_constraintRight_toRightOf="@id/photoOption"
+            app:layout_constraintTop_toTopOf="@id/photoOption"
+            app:layout_constraintBottom_toBottomOf="@id/photoOption"
+            app:srcCompat="@drawable/ic_round_check_24px"
+            android:background="#86434343"
+            android:visibility="gone"
+            />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

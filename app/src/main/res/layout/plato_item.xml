@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="8dp"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardFoto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        android:foreground="?android:attr/selectableItemBackground">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/8 Pollo al Spiedo"
+        android:textColor="@color/primaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        android:padding="4dp"
+        />
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="identificador"
+        android:textSize="2sp"
+        android:textColor="@color/primaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_restaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="snack"
+        android:textSize="2sp"
+        android:textColor="@color/primaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        android:padding="4dp"
+        />
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="descrp"
+        android:textColor="@color/primaryText"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="2sp"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 Bs"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_precio2"
+        android:textStyle="bold"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardFoto"
+        app:layout_constraintBottom_toBottomOf="@id/cardFoto"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/btn_addPedido"
+        android:background="@drawable/boton_verdeciruclar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="38dp"
+        android:minHeight="38dp"
+        android:layout_margin="4dp"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_round_add_shopping_cart_24px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

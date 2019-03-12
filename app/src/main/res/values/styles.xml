@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+<!--
+    <style name="InstrucTheme" parent="AppTheme.NoActionBar">
+
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BotonPrimary" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonSeccondary" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorSecondary</item>
+        <item name="colorControlHighlight">@color/colorSecondaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAzulFuerte" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/azul1</item>
+        <item name="colorControlHighlight">@color/azulAccent1</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAmarillo" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/naranja</item>
+        <item name="colorControlHighlight">@color/naranjaAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonRojo" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/red</item>
+        <item name="colorControlHighlight">@color/redAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAccent" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greenAccent</item>
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonVerde" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/green</item>
+        <item name="colorControlHighlight">@color/greenAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonNegro" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/primaryText</item>
+        <item name="colorControlHighlight">@color/secondaryText</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAccidente" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/mvnS</item>
+        <item name="colorControlHighlight">@color/mvnD</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAlert" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="colorControlHighlight">@color/primaryText</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="BotonTransparente" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@android:color/transparent</item>
+        <item name="colorControlHighlight">@color/casiblanco</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/dividerColor</item>
+        <item name="colorControlActivated">@color/amarillo</item>
+    </style>
+
+    <style name="descripcion">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonIntro" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@android:color/transparent</item>
+        <item name="colorControlHighlight">@color/buttonpress</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+
+    <style name="sheetNight">
+
+        <item name="android:textColor">@color/casiblanco</item>
+    </style>
+
+    <style name="sheetDay">
+        <item name="android:background">@color/colorIcons</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ad1457</color>
+    <color name="colorPrimaryDark">#78002e</color>
+    <color name="colorPrimaryLight">#e35183</color>
+    <color name="colorSecondary">#2962ff</color>
+    <color name="colorSecondaryDark">#0039cb</color>
+    <color name="colorSecondaryLight">#768fff</color>
+    <color name="colorAccent">@color/colorSecondary</color>
+    <color name="lightPrimaryColor">#C5CAE9</color>
+    <color name="colorAccent2">#4f5b62</color>
+    <color name="backgroundLight">#eceff1</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="colorIcons">#ffffff</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="dark">#121212</color>
+    <color name="fondoNoche">#3c3f41</color>
+    <color name="casiblanco">#e6e6e6</color>
+    <color name="casiblanco99">#f4f4f4</color>
+    <color name="numeral">#404243</color>
+    <color name="numeralT">#989899</color>
+
+    <color name="black_overlay">#000000</color>
+
+    <color name="numeralDia">#60122535</color>
+
+    <color name="celeste">#03A9F4</color>
+    <color name="celesteDark">#0288D1</color>
+    <color name="azul1">#3F51B5</color>
+    <color name="azulDark1">#303F9F</color>
+    <color name="azulAccent1">#536DFE</color>
+
+
+    <color name="lila">#673AB7</color>
+    <color name="lilaDark">#512DA8</color>
+    <color name="lilaAccent">#7C4DFF</color>
+    <color name="amarillo">#ffd207</color>
+    <color name="amarillodark">#FFA000</color>
+
+    <color name="naranja">#FF9800</color>
+    <color name="naranjaDark">#F57C00</color>
+    <color name="naranjaAccent">#FFC107</color>
+
+    <color name="verde">#36b43b</color>
+    <color name="verdeDark">#1c8b20</color>
+    <color name="verdeAccent">#58bf2f</color>
+    <color name="blueLight">#4f83cc</color>
+
+    <color name="pink">#E91E63</color>
+    <color name="pinkdark">#C2185B</color>
+
+
+    <color name="mvnT">#607D8B</color>
+    <color name="mvnD">#455A64</color>
+    <color name="mvnF">#9E9E9E</color>
+    <color name="mvnL">#CFD8DC</color>
+    <color name="mvnS">#212c39</color>
+
+    <color name="white">#ffffff</color>
+    <color name="yellow">#FFC107</color>
+    <color name="yellowDard">#FFA000</color>
+    <color name="green">#4CAF50</color>
+    <color name="greenDark">#388E3C</color>
+    <color name="greenAccent">#8BC34A</color>
+    <color name="red">#F44336</color>
+    <color name="redDark">#D32F2F</color>
+    <color name="redAccent">#FF5252</color>
+    <color name="orange">#F57C00</color>
+    <color name="orangeDark">#df7202</color>
+    <color name="buttonpress">#61e2e2e2</color>
+    <color name="blancotrans">#afffffff</color>
+    <color name="negrotrans">#ac383838</color>
+
+    <color name="colorPrimaryLightPix">@color/colorPrimaryLight</color>
+    <color name="colorPrimaryPix">@color/colorPrimary</color>
+</resources>
